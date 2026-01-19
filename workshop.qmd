@@ -30,10 +30,6 @@ format:
     help: true
     pause: true
     show-notes: false
-    auto-animate: false
-    auto-animate-easing: ease-in-out
-    auto-animate-duration: 0.5
-    auto-animate-unmatched: true
     mouse-wheel: false
     preload-iframes: true
     width: 1280
