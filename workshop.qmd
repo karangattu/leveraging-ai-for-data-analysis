@@ -25,12 +25,12 @@ format:
     rtl: false
     navigation-mode: linear
     shuffle: false
-    fragments: true
+    fragments: false
     embedded: false
     help: true
     pause: true
     show-notes: false
-    auto-animate: true
+    auto-animate: false
     auto-animate-easing: ease-in-out
     auto-animate-duration: 0.5
     auto-animate-unmatched: true
