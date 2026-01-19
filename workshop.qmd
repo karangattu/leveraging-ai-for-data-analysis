@@ -42,6 +42,7 @@ format:
     margin: 0.04
     min-scale: 0.2
     max-scale: 2.0
+    scrollable: true
 ---
 
 # Welcome! {.center}
@@ -73,6 +74,7 @@ format:
 | 2:00-2:15 | **Break** |
 | 2:15-3:15 | Data Analysis with Gemini |
 | 3:15-4:00 | Advanced Applications & Wrap-up |
+: Workshop Schedule {.smaller}
 
 # Section 1: Introduction to AI {.center background-color="#2C5F77"}
 
@@ -221,8 +223,10 @@ These all use different types of machine learning!
 - Generate summaries
 - Extract key findings
 
+---
+
 **Data Documentation:**
-- Upload field notes
+- Upload field notes (e.g., from BirdBox or CCFS sheets)
 - Query your observations
 - Connect related findings
 :::
@@ -232,6 +236,8 @@ These all use different types of machine learning!
 - Share notebooks with team
 - Centralized knowledge base
 - Track research progress
+
+---
 
 **Writing Support:**
 - Synthesize information
@@ -254,6 +260,7 @@ These all use different types of machine learning!
 | Code generation | Document analysis |
 | Brainstorming | Citation management |
 | Real-time queries | Long-term projects |
+: Tool Selection Guide {.smaller}
 
 **Best Practice:** Use both together for comprehensive research support!
 
@@ -316,7 +323,7 @@ A prompt is the text you provide to the AI to get a response.
 
 ```
 What is a keystone species? Give me an example from 
-North American ecosystems.
+the San Francisco Bay salt marsh ecosystem.
 ```
 
 ```
@@ -355,6 +362,7 @@ patterns?
 - Paper drafting
 - Grant writing
 - Report generation
+- Outreach material drafting (e.g., for SFBBO blog)
 
 # Section 3: Prompt Engineering {.center background-color="#2C5F77"}
 
@@ -376,12 +384,12 @@ patterns?
 **1. Be Specific**
 
 ❌ "Tell me about birds"
-✅ "Explain the migration patterns of Arctic Terns, including timing and routes"
+✅ "Explain the nesting habits of California Least Terns at the Alameda Point colony"
 
 **2. Provide Context**
 
 ❌ "Analyze this data"
-✅ "Analyze this bird census data from a temperate forest. The columns are: species, count, date, location"
+✅ "Analyze this bird banding data from Coyote Creek Field Station. Columns: species, age, sex, wing_length"
 
 ---
 
@@ -395,7 +403,7 @@ patterns?
 **4. Specify Format**
 
 ❌ "Compare these species"
-✅ "Create a comparison table of these three warbler species, comparing habitat, diet, and migration"
+✅ "Create a comparison table for Snowy Plover and Killdeer, comparing nesting habitat, camouflage, and conservation status"
 
 ---
 
@@ -444,8 +452,8 @@ Tell me about bird diversity analysis
 **Part B:** Now copy this improved version:
 ```
 I'm an ornithologist studying songbird communities in 
-temperate forests. Explain how to compare bird diversity 
-between old-growth and secondary forests. Include which 
+California oak woodlands. Explain how to compare bird diversity 
+between riparian corridors and upland habitats. Include which 
 diversity metrics to use and why.
 ```
 
@@ -468,13 +476,13 @@ Your version should specify: data type, research question, sample size, and goal
 
 Always include:
 
-- **Study system:** "In temperate forest ecosystems..."
+- **Study system:** "In tidal marsh systems like the South Bay..."
 - **Scale:** "At the landscape scale..." / "For individual birds..."
 - **Data type:** "Using point count data..." / "From GPS telemetry..."
 - **Goal:** "To determine habitat preference..." / "To model population trends..."
 
 **Example:**
-"I have 5 years of point count data for breeding songbirds in oak-hickory forests. Suggest appropriate methods to analyze temporal trends in species richness."
+"I have 10 years of banding data for Common Yellowthroats at CCFS. Suggest appropriate methods to analyze temporal trends in body condition."
 
 # Section 4: Data Analysis with Gemini {.center background-color="#2C5F77"}
 
@@ -605,9 +613,9 @@ import matplotlib.pyplot as plt
 "I have a CSV with these columns and first 3 rows:
 ```
 species,count,site
-RWBL,5,A1
-AMRO,3,A1
-NOCA,2,A2
+COYE,5,CCFS_1
+BHGR,3,CCFS_1
+NUWO,2,CCFS_2
 ```
 ..."
 
@@ -678,13 +686,13 @@ Questions:
 **How Gemini Can Help:**
 
 **Field Guides:**
-"What are the key features to distinguish Hermit Thrush from Swainson's Thrush?"
+"What are the key field marks to distinguish a Pacific-slope Flycatcher from a Cassin's Vireo?"
 
 **Diagnostic Keys:**
 "Create a dichotomous key for identifying local warblers"
 
 **Behavior Patterns:**
-"Describe typical foraging behavior of Downy vs Hairy Woodpeckers"
+"Describe typical foraging behavior of Nuttall's Woodpecker vs Downy Woodpecker in oak woodlands"
 
 **Note:** Always verify with field guides and experts!
 
@@ -698,7 +706,7 @@ Questions:
 "Summarize the current understanding of island biogeography theory"
 
 **Finding Research Gaps:**
-"What are understudied aspects of warbler migration?"
+"What are the understudied aspects of Salt Marsh Common Yellowthroat ecology?"
 
 **Explaining Methods:**
 "Explain how capture-recapture methods work for population estimation"
@@ -713,7 +721,7 @@ Questions:
 **Brainstorming with Gemini:**
 
 **Your Prompt:**
-"I study forest songbirds in fragmented habitats. Suggest 5 testable hypotheses about how fragment size affects species diversity."
+"I study Snowy Plover nesting on managed ponds in the South Bay. Suggest 5 testable hypotheses about how predator presence affects fledgling success."
 
 **Gemini Might Suggest:**
 
@@ -803,17 +811,17 @@ characteristics:
 - Upperparts: olive-brown
 - Underparts: white with brown streaking
 - Behavior: foraging on the ground, scratching in leaf litter
-- Song: loud, clear "tea-CHER, tea-CHER, tea-CHER"
+- Song: loud, dry trill or "wick-wick-wick"
 
 What species might this be? Provide a shortlist of possibilities 
-and key distinguishing features. I'm in the northeastern US.
+and key distinguishing features. I'm in the San Francisco Bay Area.
 ```
 
 **Option B - Research Design:**
 ```
-I want to study the effect of forest fragmentation on songbird 
-nesting success. I have access to 20 forest fragments ranging 
-from 5 to 100 hectares and one breeding season to collect data.
+I want to study the effect of tidal restoration on marsh bird 
+nesting success. I have access to 10 restored sites and 10 reference 
+sites in the South Bay and 3 years of data.
 
 Help me design this study:
 1. How should I allocate my effort?
@@ -1226,9 +1234,9 @@ Help me:
 **Example:**
 ```
 I study warbler populations in mixed hardwood forests. I want to 
-determine if habitat quality (measured by tree species diversity) 
-affects warbler species richness. I have 25 sites surveyed over 
-2 years with bird counts and vegetation data.
+determine if restoration age (measured by years since levee breach) 
+affects Ridgeway's Rail occupancy. I have 15 sites surveyed over 
+5 years with call-back survey results and vegetation data.
 
 Help me:
 1. Design the statistical analysis
