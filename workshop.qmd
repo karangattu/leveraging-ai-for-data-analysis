@@ -178,16 +178,16 @@ These all use different types of machine learning!
 
 **Available in Google Workspace:**
 
-1. **Gemini 1.5 Flash**
-   - Fast responses
-   - Good for most tasks
-   - Great for quick queries
+1. **Gemini 3 Flash**
+   - Rapid performance
+   - Upgraded visual & spatial reasoning
+   - Great for agentic coding & quick queries
 
-2. **Gemini 1.5 Pro**
-   - More capable
-   - Better reasoning
-   - Longer context (up to 1M tokens)
-   - Best for complex analysis
+2. **Gemini 3 Pro**
+   - Advanced "Frontier Reasoning"
+   - Better multimodal understanding (text, audio, video)
+   - Autonomous planning & code execution
+   - Best for complex biological analysis
 
 **For this workshop:** You have access to both versions through your Workspace account!
 
