@@ -1,0 +1,464 @@
+[
+  {
+    "objectID": "workshop.html#workshop-overview",
+    "href": "workshop.html#workshop-overview",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Workshop Overview",
+    "text": "Workshop Overview\nDuration: 4 hours\nGoal: Learn to leverage Google Gemini’s free tier for data analysis in ecology and ornithology\nWhat You’ll Learn:\n\nFundamentals of AI and Large Language Models\nHow to use Google Gemini effectively\nPractical data analysis techniques\nDomain-specific applications for your research\n\nMaterials: All exercises are copy-paste ready for gemini.google.com - no coding required!"
+  },
+  {
+    "objectID": "workshop.html#workshop-schedule",
+    "href": "workshop.html#workshop-schedule",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Workshop Schedule",
+    "text": "Workshop Schedule\n\n\n\nTime\nTopic\n\n\n\n\n0:00-0:30\nIntroduction to AI & LLMs\n\n\n0:30-1:15\nGetting Started with Gemini\n\n\n1:15-2:00\nPrompt Engineering Basics\n\n\n2:00-2:15\nBreak\n\n\n2:15-3:15\nData Analysis with Gemini\n\n\n3:15-4:00\nAdvanced Applications & Wrap-up"
+  },
+  {
+    "objectID": "workshop.html#what-is-artificial-intelligence",
+    "href": "workshop.html#what-is-artificial-intelligence",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "What is Artificial Intelligence?",
+    "text": "What is Artificial Intelligence?\nArtificial Intelligence (AI): Computer systems that can perform tasks requiring human intelligence\n\n\nTraditional Programming:\n\nExplicit rules\nDeterministic outputs\nLimited to programmed scenarios\n\n\nAI/Machine Learning:\n\nLearns from data\nAdapts to new situations\nPattern recognition"
+  },
+  {
+    "objectID": "workshop.html#machine-learning-in-ecology",
+    "href": "workshop.html#machine-learning-in-ecology",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Machine Learning in Ecology",
+    "text": "Machine Learning in Ecology\nApplications You Might Know:\n\nSpecies identification from images (iNaturalist)\nAudio classification for bird calls (Merlin)\nHabitat modeling from satellite imagery\nClimate prediction models\n\nThese all use different types of machine learning!"
+  },
+  {
+    "objectID": "workshop.html#what-are-large-language-models",
+    "href": "workshop.html#what-are-large-language-models",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "What are Large Language Models?",
+    "text": "What are Large Language Models?\nLarge Language Models (LLMs): AI systems trained on vast amounts of text data\nKey Characteristics:\n\nUnderstand and generate human-like text\nCan reason about complex topics\nTrained on billions of parameters\nGeneral-purpose (not just one task)\n\nExamples: GPT-4, Claude, Google Gemini, Llama"
+  },
+  {
+    "objectID": "workshop.html#how-do-llms-work",
+    "href": "workshop.html#how-do-llms-work",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "How Do LLMs Work?",
+    "text": "How Do LLMs Work?\nSimplified Process:\n\nTraining: Read millions of documents (books, websites, papers)\nPattern Learning: Identify relationships between words and concepts\nPrediction: Generate text by predicting what comes next\nFine-tuning: Improve through feedback and instruction\n\nThink of it as: A very sophisticated autocomplete that understands context"
+  },
+  {
+    "objectID": "workshop.html#introducing-google-gemini",
+    "href": "workshop.html#introducing-google-gemini",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Introducing Google Gemini",
+    "text": "Introducing Google Gemini\nGoogle’s Advanced AI Model\n\n\nCapabilities:\n\nText generation & analysis\nCode generation\nData interpretation\nMultimodal (text, images, audio)\nLong context understanding\n\n\nYour Workspace Benefits:\n\nFull Gemini access included\nEnhanced rate limits\nMultimodal capabilities\nEnterprise security\nIntegrated with Google Workspace"
+  },
+  {
+    "objectID": "workshop.html#gemini-versions",
+    "href": "workshop.html#gemini-versions",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Gemini Versions",
+    "text": "Gemini Versions\nAvailable in Google Workspace:\n\nGemini 1.5 Flash\n\nFast responses\nGood for most tasks\nGreat for quick queries\n\nGemini 1.5 Pro\n\nMore capable\nBetter reasoning\nLonger context (up to 1M tokens)\nBest for complex analysis\n\n\nFor this workshop: You have access to both versions through your Workspace account!"
+  },
+  {
+    "objectID": "workshop.html#introducing-notebooklm",
+    "href": "workshop.html#introducing-notebooklm",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Introducing NotebookLM",
+    "text": "Introducing NotebookLM\nGoogle’s AI Research Assistant\nWhat is NotebookLM?\n\nAI-powered research and note-taking tool\nUpload your own sources (papers, PDFs, notes)\nChat with your documents\nGenerate summaries and insights\nCreate study guides from your materials\n\nPerfect for Research!"
+  },
+  {
+    "objectID": "workshop.html#notebooklm-for-ecology-research",
+    "href": "workshop.html#notebooklm-for-ecology-research",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "NotebookLM for Ecology Research",
+    "text": "NotebookLM for Ecology Research\nUse Cases:\n\n\nLiterature Review: - Upload multiple research papers - Ask cross-document questions - Generate summaries - Extract key findings\nData Documentation: - Upload field notes - Query your observations - Connect related findings\n\nCollaboration: - Share notebooks with team - Centralized knowledge base - Track research progress\nWriting Support: - Synthesize information - Generate outlines - Cite sources automatically"
+  },
+  {
+    "objectID": "workshop.html#gemini-vs-notebooklm",
+    "href": "workshop.html#gemini-vs-notebooklm",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Gemini vs NotebookLM",
+    "text": "Gemini vs NotebookLM\nWhen to Use Each:\n\n\n\nGemini\nNotebookLM\n\n\n\n\nGeneral questions\nSource-specific research\n\n\nQuick analysis\nDeep literature review\n\n\nCode generation\nDocument analysis\n\n\nBrainstorming\nCitation management\n\n\nReal-time queries\nLong-term projects\n\n\n\nBest Practice: Use both together for comprehensive research support!"
+  },
+  {
+    "objectID": "workshop.html#accessing-your-tools",
+    "href": "workshop.html#accessing-your-tools",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Accessing Your Tools",
+    "text": "Accessing Your Tools\nYou’re already set up!\nYour Google Workspace account includes:\n\nGemini - gemini.google.com\n\nSign in with your Workspace account\nStart chatting immediately\n\nNotebookLM - notebooklm.google.com\n\nUpload sources to get started\nCreate project-specific notebooks\n\n\nToday’s Focus: We’ll primarily use Gemini, with NotebookLM tips throughout"
+  },
+  {
+    "objectID": "workshop.html#understanding-the-gemini-interface",
+    "href": "workshop.html#understanding-the-gemini-interface",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Understanding the Gemini Interface",
+    "text": "Understanding the Gemini Interface\nMain Components:\n\nChat Input Box: Where you type your questions/prompts\nConversation History: Previous messages\nNew Chat Button: Start fresh conversations\nSettings: Manage preferences\nActivity: View past chats\n\nPro Tip: Use separate chats for different projects/topics"
+  },
+  {
+    "objectID": "workshop.html#your-first-prompt",
+    "href": "workshop.html#your-first-prompt",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Your First Prompt",
+    "text": "Your First Prompt\nWhat is a Prompt?\nA prompt is the text you provide to the AI to get a response.\nExample Prompts:\n\n“What is ecological succession?”\n“Explain species-area relationships”\n“List common bird identification features”\n\nKey Point: Clear questions get clear answers!"
+  },
+  {
+    "objectID": "workshop.html#hands-on-task-1-your-first-gemini-interaction",
+    "href": "workshop.html#hands-on-task-1-your-first-gemini-interaction",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "🎯 Hands-On Task 1: Your First Gemini Interaction",
+    "text": "🎯 Hands-On Task 1: Your First Gemini Interaction\nExercise (5 minutes):\n\nOpen gemini.google.com\nCopy and paste these prompts one at a time:\n\nWhat is a keystone species? Give me an example from \nNorth American ecosystems.\nExplain the difference between species richness and \nspecies evenness in simple terms.\nWhat are the main challenges in studying bird migration \npatterns?\nNotice: Response speed, detail level, accuracy\nShare: What surprised you about the responses?"
+  },
+  {
+    "objectID": "workshop.html#what-gemini-can-do-for-you",
+    "href": "workshop.html#what-gemini-can-do-for-you",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "What Gemini Can Do for You",
+    "text": "What Gemini Can Do for You\nResearch Support:\n\nLiterature summaries\nMethodology suggestions\nStatistical guidance\nCode writing assistance\n\nData Analysis:\n\nData interpretation\nVisualization suggestions\nStatistical test recommendations\n\nWriting Help:\n\nPaper drafting\nGrant writing\nReport generation"
+  },
+  {
+    "objectID": "workshop.html#what-is-prompt-engineering",
+    "href": "workshop.html#what-is-prompt-engineering",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "What is Prompt Engineering?",
+    "text": "What is Prompt Engineering?\nDefinition: The practice of designing effective prompts to get better AI responses\nWhy It Matters:\n\nSame question, different phrasings = different results\nGood prompts save time\nBetter prompts = more accurate answers\nEssential skill for AI tools"
+  },
+  {
+    "objectID": "workshop.html#principles-of-good-prompts",
+    "href": "workshop.html#principles-of-good-prompts",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Principles of Good Prompts",
+    "text": "Principles of Good Prompts\n1. Be Specific\n❌ “Tell me about birds” ✅ “Explain the migration patterns of Arctic Terns, including timing and routes”\n2. Provide Context\n❌ “Analyze this data” ✅ “Analyze this bird census data from a temperate forest. The columns are: species, count, date, location”"
+  },
+  {
+    "objectID": "workshop.html#principles-of-good-prompts-cont.",
+    "href": "workshop.html#principles-of-good-prompts-cont.",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Principles of Good Prompts (cont.)",
+    "text": "Principles of Good Prompts (cont.)\n3. Set Constraints\n❌ “How do I analyze diversity?” ✅ “Explain Shannon diversity index in 3 paragraphs suitable for undergraduate ecology students”\n4. Specify Format\n❌ “Compare these species” ✅ “Create a comparison table of these three warbler species, comparing habitat, diet, and migration”"
+  },
+  {
+    "objectID": "workshop.html#advanced-prompt-techniques",
+    "href": "workshop.html#advanced-prompt-techniques",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Advanced Prompt Techniques",
+    "text": "Advanced Prompt Techniques\nRole Assignment:\n“You are an expert ornithologist. Explain…”\nStep-by-Step Requests:\n“Walk me through the steps to calculate…”\nExamples in Prompts:\n“Like this example: [provide example], now do this with…”\nFollow-up Refinement:\n“That’s good, but make it more concise”"
+  },
+  {
+    "objectID": "workshop.html#common-prompt-mistakes",
+    "href": "workshop.html#common-prompt-mistakes",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Common Prompt Mistakes",
+    "text": "Common Prompt Mistakes\n❌ Too Vague: “Help with my research” ✅ Better: “Suggest statistical methods for comparing bird abundance across 5 habitat types”\n❌ Assuming Too Much: “Use the standard method” ✅ Better: “Use Principal Component Analysis (PCA) to…”\n❌ No Error Checking: Accepting first answer ✅ Better: “Verify this answer: Is this the correct formula?”"
+  },
+  {
+    "objectID": "workshop.html#hands-on-task-2-improve-your-prompts",
+    "href": "workshop.html#hands-on-task-2-improve-your-prompts",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "🎯 Hands-On Task 2: Improve Your Prompts",
+    "text": "🎯 Hands-On Task 2: Improve Your Prompts\nExercise (10 minutes):\nPart A: First, copy this poor prompt into Gemini:\nTell me about bird diversity analysis\nPart B: Now copy this improved version:\nI'm an ornithologist studying songbird communities in \ntemperate forests. Explain how to compare bird diversity \nbetween old-growth and secondary forests. Include which \ndiversity metrics to use and why.\nPart C: Create your own improved prompt for this vague question:\nHow do I analyze my data?\nYour version should specify: data type, research question, sample size, and goal.\nBonus: Paste your improved prompts into Gemini and compare results!\nShare: What made the difference in response quality?"
+  },
+  {
+    "objectID": "workshop.html#domain-specific-prompting",
+    "href": "workshop.html#domain-specific-prompting",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Domain-Specific Prompting",
+    "text": "Domain-Specific Prompting\nFor Ecology/Ornithology:\nAlways include:\n\nStudy system: “In temperate forest ecosystems…”\nScale: “At the landscape scale…” / “For individual birds…”\nData type: “Using point count data…” / “From GPS telemetry…”\nGoal: “To determine habitat preference…” / “To model population trends…”\n\nExample: “I have 5 years of point count data for breeding songbirds in oak-hickory forests. Suggest appropriate methods to analyze temporal trends in species richness.”"
+  },
+  {
+    "objectID": "workshop.html#gemini-for-data-analysis",
+    "href": "workshop.html#gemini-for-data-analysis",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Gemini for Data Analysis",
+    "text": "Gemini for Data Analysis\nWhat Gemini Can Help With:\n\nUnderstanding analysis methods\nGenerating analysis code (R, Python)\nInterpreting results\nCreating visualizations\nTroubleshooting errors\n\nWhat It Cannot Do:\n\nRun code for you (free tier)*\nAccess your local files\nMake subjective research decisions\n\n*Advanced paid features may allow code execution"
+  },
+  {
+    "objectID": "workshop.html#workflow-analysis-with-gemini",
+    "href": "workshop.html#workflow-analysis-with-gemini",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Workflow: Analysis with Gemini",
+    "text": "Workflow: Analysis with Gemini\nTypical Process:\n\nPlan: Ask Gemini for analysis strategy\nCode: Request code for your analysis\nInterpret: Paste results, ask for interpretation\nRefine: Iterate based on feedback\nVisualize: Get code for figures\nDocument: Generate result descriptions\n\nKey: You’re still in control! Gemini is your assistant."
+  },
+  {
+    "objectID": "workshop.html#example-bird-diversity-analysis",
+    "href": "workshop.html#example-bird-diversity-analysis",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Example: Bird Diversity Analysis",
+    "text": "Example: Bird Diversity Analysis\nYour Question:\n“I have bird survey data with columns: site_id, species, count, habitat_type. I want to compare species diversity between forest and grassland habitats. Suggest an analysis approach.”\nGemini Might Suggest:\n\nCalculate diversity indices (Shannon, Simpson)\nTest for differences (t-test or Mann-Whitney)\nVisualize with boxplots\nConsider sample size and rarefaction"
+  },
+  {
+    "objectID": "workshop.html#generating-r-code",
+    "href": "workshop.html#generating-r-code",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Generating R Code",
+    "text": "Generating R Code\nYour Prompt:\n“Write R code to calculate Shannon diversity index for each site from a dataframe called ‘bird_data’ with columns: site_id, species, count. Then compare diversity between habitats using a t-test.”\nGemini Will Generate:\nlibrary(vegan)\nlibrary(dplyr)\n\n# Calculate Shannon diversity by site\ndiversity_by_site &lt;- bird_data %&gt;%\n  group_by(site_id) %&gt;%\n  summarize(shannon = diversity(count, index = \"shannon\"))\n\n# Merge with habitat data...\n# Perform t-test..."
+  },
+  {
+    "objectID": "workshop.html#generating-python-code",
+    "href": "workshop.html#generating-python-code",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Generating Python Code",
+    "text": "Generating Python Code\nYour Prompt:\n“Write Python code using pandas and scikit-bio to calculate Shannon diversity and create a boxplot comparing forest vs grassland sites.”\nGemini Will Generate:\nimport pandas as pd\nimport numpy as np\nfrom skbio.diversity import alpha_diversity\nimport matplotlib.pyplot as plt\n\n# Calculate diversity\n# Create visualization\n# etc.\nPro Tip: Always specify libraries you prefer!"
+  },
+  {
+    "objectID": "workshop.html#interpreting-results",
+    "href": "workshop.html#interpreting-results",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Interpreting Results",
+    "text": "Interpreting Results\nYou Can Ask:\n\n“What does a Shannon index of 2.3 mean?”\n“Is this p-value significant?”\n“Why might I see this pattern?”\n“What are alternative explanations?”\n\nExample Exchange:\nYou: “I got a p-value of 0.23 comparing diversity between habitats. What does this mean?”\nGemini: “A p-value of 0.23 means there’s no statistically significant difference (typically we use α=0.05). This suggests…”"
+  },
+  {
+    "objectID": "workshop.html#working-with-actual-data",
+    "href": "workshop.html#working-with-actual-data",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Working with Actual Data",
+    "text": "Working with Actual Data\nBest Practices:\n\nDon’t share sensitive data: Use fake/anonymized examples\nDescribe structure: Column names, data types\nShow small samples: First few rows as example\nSpecify format: CSV, Excel, database, etc.\n\nExample:\n“I have a CSV with these columns and first 3 rows:\nspecies,count,site\nRWBL,5,A1\nAMRO,3,A1\nNOCA,2,A2\n…”"
+  },
+  {
+    "objectID": "workshop.html#hands-on-task-3-analyze-sample-data",
+    "href": "workshop.html#hands-on-task-3-analyze-sample-data",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "🎯 Hands-On Task 3: Analyze Sample Data",
+    "text": "🎯 Hands-On Task 3: Analyze Sample Data\nExercise (15 minutes):\nCopy this complete scenario into Gemini:\nI have bird survey data from 10 sites. Here are the results:\n\nForest sites:\n- Site F1: 12 species, 45 total birds, Shannon diversity = 2.21\n- Site F2: 15 species, 52 total birds, Shannon diversity = 2.48\n- Site F3: 14 species, 48 total birds, Shannon diversity = 2.35\n- Site F4: 13 species, 50 total birds, Shannon diversity = 2.28\n- Site F5: 16 species, 55 total birds, Shannon diversity = 2.52\n\nGrassland sites:\n- Site G1: 8 species, 38 total birds, Shannon diversity = 1.85\n- Site G2: 10 species, 41 total birds, Shannon diversity = 1.98\n- Site G3: 9 species, 39 total birds, Shannon diversity = 1.91\n- Site G4: 11 species, 43 total birds, Shannon diversity = 2.05\n- Site G5: 7 species, 35 total birds, Shannon diversity = 1.76\n\nQuestions:\n1. Calculate the mean Shannon diversity for each habitat type\n2. Does there appear to be a difference between habitats?\n3. Would a t-test be appropriate here? Why or why not?\n4. What would be the null and alternative hypotheses?\n5. What biological factors might explain any differences?\nThen try follow-up questions: - “Write R code to perform this analysis” - “How would I visualize these results?” - “What if the data isn’t normally distributed?”"
+  },
+  {
+    "objectID": "workshop.html#common-data-analysis-requests",
+    "href": "workshop.html#common-data-analysis-requests",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Common Data Analysis Requests",
+    "text": "Common Data Analysis Requests\nStatistical Tests:\n\n“Which test should I use for…”\n“Explain assumptions of ANOVA”\n“Write code for a mixed effects model”\n\nVisualization:\n\n“Create a ggplot for…”\n“Make a matplotlib figure showing…”\n“Suggest effective visualizations for…”\n\nInterpretation:\n\n“What does this coefficient mean?”\n“Explain this interaction effect”\n“Is this effect size meaningful?”"
+  },
+  {
+    "objectID": "workshop.html#species-identification-assistance",
+    "href": "workshop.html#species-identification-assistance",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Species Identification Assistance",
+    "text": "Species Identification Assistance\nHow Gemini Can Help:\nField Guides: “What are the key features to distinguish Hermit Thrush from Swainson’s Thrush?”\nDiagnostic Keys: “Create a dichotomous key for identifying local warblers”\nBehavior Patterns: “Describe typical foraging behavior of Downy vs Hairy Woodpeckers”\nNote: Always verify with field guides and experts!"
+  },
+  {
+    "objectID": "workshop.html#literature-review-support",
+    "href": "workshop.html#literature-review-support",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Literature Review Support",
+    "text": "Literature Review Support\nEffective Uses:\nSummarizing Concepts: “Summarize the current understanding of island biogeography theory”\nFinding Research Gaps: “What are understudied aspects of warbler migration?”\nExplaining Methods: “Explain how capture-recapture methods work for population estimation”\nComparing Approaches: “Compare radio telemetry vs GPS tracking for bird movement studies”"
+  },
+  {
+    "objectID": "workshop.html#research-hypothesis-generation",
+    "href": "workshop.html#research-hypothesis-generation",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Research Hypothesis Generation",
+    "text": "Research Hypothesis Generation\nBrainstorming with Gemini:\nYour Prompt: “I study forest songbirds in fragmented habitats. Suggest 5 testable hypotheses about how fragment size affects species diversity.”\nGemini Might Suggest:\n\nLarger fragments support higher species richness\nEdge specialists dominate in smaller fragments\nMigratory species show stronger area sensitivity than residents\nNesting success decreases with decreasing fragment size\nFunctional diversity declines faster than species richness\n\nYour Role: Evaluate, refine, and test!"
+  },
+  {
+    "objectID": "workshop.html#experimental-design-help",
+    "href": "workshop.html#experimental-design-help",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Experimental Design Help",
+    "text": "Experimental Design Help\nWhat to Ask:\n\n“Suggest sampling design for…”\n“How many replicates do I need for…”\n“What are potential confounding variables?”\n“Critique this experimental design: …”\n\nExample:\n“I want to test if bird feeders affect local bird diversity. Suggest an experimental design with proper controls.”"
+  },
+  {
+    "objectID": "workshop.html#writing-assistance",
+    "href": "workshop.html#writing-assistance",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Writing Assistance",
+    "text": "Writing Assistance\nPaper Sections:\nMethods: “Write a methods paragraph describing point count surveys conducted at 30 sites, 3 times each, during breeding season”\nResults: “Describe these statistical results in clear prose: [paste results]”\nDiscussion: “Suggest possible explanations for why species richness decreased with urbanization intensity”\nImportant: Always personalize and verify! Don’t copy-paste directly."
+  },
+  {
+    "objectID": "workshop.html#grant-writing-support",
+    "href": "workshop.html#grant-writing-support",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Grant Writing Support",
+    "text": "Grant Writing Support\nUseful Prompts:\n\n“Outline a research proposal for…”\n“Write a broader impacts statement about…”\n“Suggest project timeline for a 3-year study on…”\n“List potential challenges and solutions for…”\n\nRemember:\n\nGrant reviewers may use AI too\nYour voice and expertise must shine through\nVerify all factual claims"
+  },
+  {
+    "objectID": "workshop.html#teaching-and-outreach",
+    "href": "workshop.html#teaching-and-outreach",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Teaching and Outreach",
+    "text": "Teaching and Outreach\nCreate Materials:\n\n“Design a lesson plan about migration for middle schoolers”\n“Create an analogy to explain ecological succession”\n“Draft text for an interpretive sign about local birds”\n\nCitizen Science:\n\n“Write instructions for volunteers collecting bird data”\n“Create a FAQ about our bird monitoring project”"
+  },
+  {
+    "objectID": "workshop.html#hands-on-task-4-domain-specific-challenge",
+    "href": "workshop.html#hands-on-task-4-domain-specific-challenge",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "🎯 Hands-On Task 4: Domain-Specific Challenge",
+    "text": "🎯 Hands-On Task 4: Domain-Specific Challenge\nChoose ONE scenario (10 minutes) and copy it into Gemini:\nOption A - Species Identification:\nI observed a small songbird in a temperate forest with these \ncharacteristics:\n- Size: smaller than a robin\n- Upperparts: olive-brown\n- Underparts: white with brown streaking\n- Behavior: foraging on the ground, scratching in leaf litter\n- Song: loud, clear \"tea-CHER, tea-CHER, tea-CHER\"\n\nWhat species might this be? Provide a shortlist of possibilities \nand key distinguishing features. I'm in the northeastern US.\nOption B - Research Design:\nI want to study the effect of forest fragmentation on songbird \nnesting success. I have access to 20 forest fragments ranging \nfrom 5 to 100 hectares and one breeding season to collect data.\n\nHelp me design this study:\n1. How should I allocate my effort?\n2. What variables should I measure?\n3. What are potential confounding factors?\n4. What statistical approach would I use?\n5. What are the main limitations?\nOption C - Writing Help:\nHelp me write a methods paragraph. I conducted point count \nsurveys at 30 sites (15 forest, 15 grassland). Each site was \nsurveyed 3 times between May 15 and June 30, 2024. Each survey \nlasted 10 minutes. I recorded all birds seen or heard within \n50m radius between 6am-10am on days with no rain and wind &lt;15 km/h.\n\nWrite this as a clear methods paragraph for a scientific paper.\nShare: What was helpful? What would you need to verify or change?"
+  },
+  {
+    "objectID": "workshop.html#fact-checking-is-essential",
+    "href": "workshop.html#fact-checking-is-essential",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Fact-Checking is Essential",
+    "text": "Fact-Checking is Essential\nGemini Can Make Mistakes:\n\nHallucinations: Making up plausible-sounding but false information\nOutdated Information: Training data has a cutoff date\nMisunderstanding: Interpreting your prompt differently than intended\n\nAlways Verify:\n\nScientific facts against literature\nStatistical methods with textbooks\nSpecies information with field guides\nCode by testing it!"
+  },
+  {
+    "objectID": "workshop.html#verification-strategies",
+    "href": "workshop.html#verification-strategies",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Verification Strategies",
+    "text": "Verification Strategies\nCross-Reference:\n\nCheck multiple sources\nConsult peer-reviewed literature\nAsk colleagues/experts\n\nCritical Questions:\n\n“Is this consistent with what I know?”\n“Can I find a citation for this?”\n“Does this code actually run?”\n\nUse Gemini Itself:\n“Is this statement accurate: [paste claim]? Provide sources.”"
+  },
+  {
+    "objectID": "workshop.html#privacy-and-data-security",
+    "href": "workshop.html#privacy-and-data-security",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Privacy and Data Security",
+    "text": "Privacy and Data Security\nDO NOT Share:\n\nUnpublished data (especially if not yours)\nSensitive location data (endangered species)\nProprietary information\nPersonal information\nData with legal restrictions\n\nSafe to Share:\n\nPublished data\nAnonymized examples\nPublicly available datasets\nGeneric/hypothetical scenarios"
+  },
+  {
+    "objectID": "workshop.html#ethical-considerations",
+    "href": "workshop.html#ethical-considerations",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Ethical Considerations",
+    "text": "Ethical Considerations\nResearch Ethics:\n\nDon’t let AI make scientific decisions for you\nMaintain intellectual honesty\nAcknowledge AI use when appropriate\nFollow journal policies on AI\n\nData Interpretation:\n\nYou understand your system, AI doesn’t\nBiology is complex; simple AI answers may be wrong\nStatistical significance ≠ biological significance"
+  },
+  {
+    "objectID": "workshop.html#limitations-of-free-tier",
+    "href": "workshop.html#limitations-of-free-tier",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Limitations of Free Tier",
+    "text": "Limitations of Free Tier\nRate Limits:\n\nLimited requests per minute/day\nMay slow down with heavy use\nResets after waiting period\n\nFeatures:\n\nNo code execution in chat\nLimited multimodal capabilities\nShorter maximum context\n\nWorkarounds:\n\nPlan your questions\nUse multiple sessions\nBreak complex tasks into steps"
+  },
+  {
+    "objectID": "workshop.html#when-not-to-use-gemini",
+    "href": "workshop.html#when-not-to-use-gemini",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "When NOT to Use Gemini",
+    "text": "When NOT to Use Gemini\nDon’t Use For:\n\nFinal decision-making without verification\nIdentifying endangered species locations\nAnalyzing sensitive/confidential data\nCritical/time-sensitive clinical decisions\nReplacing domain expertise\n\nIt’s a Tool, Not a Replacement:\n\nYour expertise is irreplaceable\nAI assists, you decide\nCritical thinking still essential"
+  },
+  {
+    "objectID": "workshop.html#academic-integrity",
+    "href": "workshop.html#academic-integrity",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Academic Integrity",
+    "text": "Academic Integrity\nGuidelines:\nAcceptable: - Brainstorming ideas - Learning concepts - Debugging code - Improving writing clarity\nRequires Disclosure: - Substantial text generation - Code generation (check journal policies) - Analysis suggestions used directly\nNot Acceptable: - Fabricating data or results - Plagiarizing AI output as original - Bypassing learning in courses\nCheck your institution’s policies!"
+  },
+  {
+    "objectID": "workshop.html#multimodal-capabilities",
+    "href": "workshop.html#multimodal-capabilities",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Multimodal Capabilities",
+    "text": "Multimodal Capabilities\nGemini Can Process:\nImages: - “What species is in this photo?” - “Describe the habitat in this image” - “Read this field data sheet”\nCombinations: - Upload image + ask questions - Combine data tables with text - Analyze charts/graphs\nTry it: Upload a bird photo and ask for ID help!"
+  },
+  {
+    "objectID": "workshop.html#using-notebooklm-for-research",
+    "href": "workshop.html#using-notebooklm-for-research",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Using NotebookLM for Research",
+    "text": "Using NotebookLM for Research\nPractical Workflow Example:\nStep 1: Create a Notebook for Your Project - Go to notebooklm.google.com - Create “Songbird Diversity Project”\nStep 2: Upload Your Sources - Research papers on bird diversity - Your field notes (Google Docs) - Previous study results (PDFs) - Methodology references\nStep 3: Ask Cross-Document Questions"
+  },
+  {
+    "objectID": "workshop.html#notebooklm-example-queries",
+    "href": "workshop.html#notebooklm-example-queries",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "NotebookLM Example Queries",
+    "text": "NotebookLM Example Queries\nCopy these into NotebookLM (after uploading sources):\nSummarize the main findings about forest bird diversity \nacross all uploaded papers. What are the common themes?\nBased on my field notes and the literature, what factors \nmight explain the patterns I'm seeing in my data?\nCreate a comparison table of the statistical methods used \nin these studies for analyzing bird diversity.\nGenerate a study guide covering the key concepts I need \nto understand for my analysis."
+  },
+  {
+    "objectID": "workshop.html#combining-gemini-and-notebooklm",
+    "href": "workshop.html#combining-gemini-and-notebooklm",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Combining Gemini and NotebookLM",
+    "text": "Combining Gemini and NotebookLM\nPowerful Workflow:\n\nNotebookLM: Deep dive into your literature\n\nUpload 10-20 papers on your topic\nGet comprehensive summaries\nIdentify knowledge gaps\n\nGemini: Apply insights to your work\n\n“Based on X theory, how should I analyze…”\nGenerate code for methods\nGet real-time analysis help\n\nNotebookLM: Document your findings\n\nAdd your results as new sources\nGenerate discussion points\nCreate draft sections"
+  },
+  {
+    "objectID": "workshop.html#notebooklm-features-for-researchers",
+    "href": "workshop.html#notebooklm-features-for-researchers",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "NotebookLM Features for Researchers",
+    "text": "NotebookLM Features for Researchers\nKey Capabilities:\n\nSource Grounding: All answers cite specific sources\nAudio Overviews: Generate podcast-style summaries\nNote-Taking: Organize thoughts alongside sources\nTimeline View: Track research progress\nShared Notebooks: Collaborate with team\n\nPro Tip: Create separate notebooks for different projects or research phases"
+  },
+  {
+    "objectID": "workshop.html#iterative-conversations",
+    "href": "workshop.html#iterative-conversations",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Iterative Conversations",
+    "text": "Iterative Conversations\nBuild on Previous Responses:\n\nStart broad: “Explain community assembly theory”\nGet specific: “Now relate that to bird communities”\nApply it: “How would I test this in my forest?”\nGet technical: “Show me the R code for that analysis”\n\nAdvantage: Gemini remembers conversation context!"
+  },
+  {
+    "objectID": "workshop.html#creating-templates",
+    "href": "workshop.html#creating-templates",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Creating Templates",
+    "text": "Creating Templates\nReusable Prompts:\nSave effective prompts for common tasks:\nStatistical Analysis Template: “I have data on [VARIABLE] from [STUDY_SYSTEM] with [SAMPLE_SIZE] samples. I want to test [HYPOTHESIS]. Suggest appropriate statistical approach and R code.”\nLiterature Summary Template: “Summarize current understanding of [TOPIC] in [FIELD], focusing on [ASPECT]. Include key studies and knowledge gaps.”"
+  },
+  {
+    "objectID": "workshop.html#integrating-into-your-workflow",
+    "href": "workshop.html#integrating-into-your-workflow",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Integrating into Your Workflow",
+    "text": "Integrating into Your Workflow\nDaily Research Tasks:\n\nMorning: Check Gemini for concept clarification\nDuring analysis: Get code suggestions\nWriting time: Draft/refine text\nEnd of day: Plan tomorrow’s analyses\n\nProject Phases:\n\nPlanning: Hypothesis generation, design advice\nData collection: Protocol refinement\nAnalysis: Statistical guidance, coding help\nWriting: Drafting, editing assistance"
+  },
+  {
+    "objectID": "workshop.html#combining-with-other-tools",
+    "href": "workshop.html#combining-with-other-tools",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Combining with Other Tools",
+    "text": "Combining with Other Tools\nWorkflow Integration:\nNotebookLM + Gemini: - Upload papers to NotebookLM → Get summaries → Use insights in Gemini for analysis\nGemini + R/Python: - Generate code → Test in IDE → Refine with Gemini\nNotebookLM + Literature: - Upload papers to NotebookLM → Ask cross-paper questions → Generate literature review\nGemini + Collaboration: - Draft text → Team review → Refine with Gemini\nNotebookLM + Field Work: - Upload field notes → Query observations → Track patterns over time\nAll Together: - Best when combined with textbooks, courses, experts, and traditional methods"
+  },
+  {
+    "objectID": "workshop.html#staying-updated",
+    "href": "workshop.html#staying-updated",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Staying Updated",
+    "text": "Staying Updated\nGoogle AI Tools Evolve:\n\nNew features regularly added\nImproved capabilities\nChanged limitations\nUpdated policies\n\nFollow:\n\nGoogle AI blog (blog.google/technology/ai/)\nNotebookLM updates\nGoogle Workspace release notes\nAcademic AI communities\nYour field’s AI adoption"
+  },
+  {
+    "objectID": "workshop.html#resources-for-continued-learning",
+    "href": "workshop.html#resources-for-continued-learning",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Resources for Continued Learning",
+    "text": "Resources for Continued Learning\nGoogle AI Tools:\n\nGemini: gemini.google.com\nNotebookLM: notebooklm.google.com\nGoogle AI Studio: aistudio.google.com\nDocumentation: ai.google.dev\n\nPrompt Engineering:\n\nLearn Prompting (learnprompting.org)\nOpenAI Prompt Engineering Guide\nPractice, practice, practice!\n\nAI in Science:\n\nPapers on AI in ecology/ornithology\nYour field’s methodology journals\nOnline courses (Coursera, etc.)\n\nCommunities:\n\n#AcademicTwitter discussions\nEcology/ornithology society forums\nLocal R/Python user groups"
+  },
+  {
+    "objectID": "workshop.html#advanced-topics-self-study",
+    "href": "workshop.html#advanced-topics-self-study",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Advanced Topics (Self-Study)",
+    "text": "Advanced Topics (Self-Study)\nExplore on Your Own:\n\nAPI Access: Programmatic use of Gemini\nBatch Processing: Analyzing multiple datasets\nCustom Instructions: Tuning behavior\nChain-of-Thought: Better reasoning\nFew-Shot Learning: Examples-based prompting\n\nDocumentation: ai.google.dev"
+  },
+  {
+    "objectID": "workshop.html#final-exercise-plan-your-use-case",
+    "href": "workshop.html#final-exercise-plan-your-use-case",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "🎯 Final Exercise: Plan Your Use Case",
+    "text": "🎯 Final Exercise: Plan Your Use Case\nIndividual Activity (5 minutes):\nThink about your current research/work and write a detailed prompt in your notes or directly in Gemini:\nTemplate to use:\n[Describe your research context]\n\nI want to [specific goal]\n\nI have [data/resources available]\n\nHelp me:\n1. [Question 1]\n2. [Question 2]\n3. [Question 3]\nExample:\nI study warbler populations in mixed hardwood forests. I want to \ndetermine if habitat quality (measured by tree species diversity) \naffects warbler species richness. I have 25 sites surveyed over \n2 years with bird counts and vegetation data.\n\nHelp me:\n1. Design the statistical analysis\n2. Identify potential confounding variables\n3. Suggest appropriate visualizations\nOptional: Test your prompt in Gemini and share results with the group!"
+  },
+  {
+    "objectID": "workshop.html#key-takeaways",
+    "href": "workshop.html#key-takeaways",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\n✅ AI is a powerful assistant, not a replacement for expertise\n✅ Good prompts = Better results (be specific, provide context)\n✅ Always verify AI outputs against trusted sources\n✅ Free tier is capable for most learning and research tasks\n✅ Ethical use matters - maintain integrity and privacy\n✅ Start small - Integrate gradually into workflow"
+  },
+  {
+    "objectID": "workshop.html#your-next-steps",
+    "href": "workshop.html#your-next-steps",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Your Next Steps",
+    "text": "Your Next Steps\nThis Week:\n\nSet up Gemini account if you haven’t\nTry prompts for one current task\nPractice improving your prompts\n\nThis Month:\n\nIntegrate into one workflow aspect\nShare tips with colleagues\nTrack what works/doesn’t\n\nOngoing:\n\nStay updated on AI developments\nContribute to responsible AI use in your field\nKeep learning and experimenting!"
+  },
+  {
+    "objectID": "workshop.html#questions-discussion",
+    "href": "workshop.html#questions-discussion",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Questions & Discussion",
+    "text": "Questions & Discussion\nOpen Q&A Time\n\nQuestions about concepts covered?\nSpecific use cases to discuss?\nChallenges you anticipate?\nSuccess stories to share?\n\nStay Connected:\n\n[Your contact information]\n[Workshop materials repository]\n[Follow-up resources]"
+  },
+  {
+    "objectID": "workshop.html#additional-resources",
+    "href": "workshop.html#additional-resources",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Additional Resources",
+    "text": "Additional Resources\nWebsites:\n\nGoogle AI Studio: aistudio.google.com\nGemini API Docs: ai.google.dev\n\nExample Use Cases:\n\nSample datasets from today\nPrompt templates\nAnalysis workflows\n\nFurther Learning:\n\nOnline courses on AI for scientists\nCommunity forums\nPractice datasets"
+  },
+  {
+    "objectID": "workshop.html#thank-you",
+    "href": "workshop.html#thank-you",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Thank You!",
+    "text": "Thank You!\nHappy AI-Assisted Research!\nRemember:\n\nYou’re the expert in your field\nAI is your tool, not your replacement\nEthical use makes better science\nKeep learning and sharing\n\nQuestions? Contact [your email]\nMaterials: [Repository link]"
+  },
+  {
+    "objectID": "workshop.html#bonus-quick-reference",
+    "href": "workshop.html#bonus-quick-reference",
+    "title": "Leveraging Google Gemini for Data Analysis",
+    "section": "Bonus: Quick Reference",
+    "text": "Bonus: Quick Reference\nQuick Prompts for Common Tasks:\n\n\n\n\n\n\n\nTask\nPrompt Template\n\n\n\n\nStatistical Test\n“I have [DATA TYPE] measuring [VARIABLES] with [N] samples. Suggest appropriate statistical test.”\n\n\nR Code\n“Write R code using [PACKAGES] to [TASK] with data structure: [DESCRIPTION]”\n\n\nInterpret Result\n“I got [RESULT] from [TEST]. Explain what this means for [HYPOTHESIS].”\n\n\nLiterature Help\n“Summarize current understanding of [TOPIC] in [FIELD], focusing on [ASPECT].”\n\n\nSpecies ID\n“What distinguishes [SPECIES A] from [SPECIES B]? Focus on [FIELD MARKS/BEHAVIOR].”\n\n\nVisualization\n“Create [PLOT TYPE] in [R/Python] showing [RELATIONSHIP] with [AESTHETICS].”\n\n\n\nSave these for quick reference!\n\n\n\n🤖 Gemini for Data Analysis Workshop | 🐦 Ornithology & Ecology"
+  }
+]

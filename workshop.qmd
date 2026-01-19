@@ -1,0 +1,1349 @@
+---
+title: "Leveraging Google Gemini for Data Analysis"
+subtitle: "A Workshop for Ornithologists and Ecologists"
+author: "Workshop Facilitator"
+format:
+  revealjs:
+    theme: [moon, custom.css]
+    slide-number: c/t
+    show-slide-number: all
+    chalkboard: 
+      buttons: true
+    preview-links: auto
+    logo: ""
+    css: custom.css
+    footer: "🤖 Gemini for Data Analysis Workshop | 🐦 Ornithology & Ecology"
+    transition: slide
+    background-transition: zoom
+    transition-speed: default
+    controls: true
+    controls-layout: bottom-right
+    progress: true
+    history: true
+    center: true
+    touch: true
+    loop: false
+    rtl: false
+    navigation-mode: linear
+    shuffle: false
+    fragments: true
+    embedded: false
+    help: true
+    pause: true
+    show-notes: false
+    auto-animate: true
+    auto-animate-easing: ease-in-out
+    auto-animate-duration: 0.5
+    auto-animate-unmatched: true
+    mouse-wheel: false
+    preload-iframes: true
+    width: 1280
+    height: 720
+    margin: 0.04
+    min-scale: 0.2
+    max-scale: 2.0
+---
+
+# Welcome! {.center}
+
+## Workshop Overview
+
+**Duration:** 4 hours
+
+**Goal:** Learn to leverage Google Gemini's free tier for data analysis in ecology and ornithology
+
+**What You'll Learn:**
+
+- Fundamentals of AI and Large Language Models
+- How to use Google Gemini effectively
+- Practical data analysis techniques
+- Domain-specific applications for your research
+
+**Materials:** All exercises are copy-paste ready for [gemini.google.com](https://gemini.google.com) - no coding required!
+
+---
+
+## Workshop Schedule
+
+| Time | Topic |
+|------|-------|
+| 0:00-0:30 | Introduction to AI & LLMs |
+| 0:30-1:15 | Getting Started with Gemini |
+| 1:15-2:00 | Prompt Engineering Basics |
+| 2:00-2:15 | **Break** |
+| 2:15-3:15 | Data Analysis with Gemini |
+| 3:15-4:00 | Advanced Applications & Wrap-up |
+
+# Section 1: Introduction to AI {.center background-color="#2C5F77"}
+
+## What is Artificial Intelligence?
+
+**Artificial Intelligence (AI):** Computer systems that can perform tasks requiring human intelligence
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Traditional Programming:**
+
+- Explicit rules
+- Deterministic outputs
+- Limited to programmed scenarios
+:::
+
+::: {.column width="50%"}
+**AI/Machine Learning:**
+
+- Learns from data
+- Adapts to new situations
+- Pattern recognition
+:::
+
+::::
+
+---
+
+## Machine Learning in Ecology
+
+**Applications You Might Know:**
+
+- **Species identification** from images (iNaturalist)
+- **Audio classification** for bird calls (Merlin)
+- **Habitat modeling** from satellite imagery
+- **Climate prediction** models
+
+These all use different types of machine learning!
+
+---
+
+## What are Large Language Models?
+
+**Large Language Models (LLMs):** AI systems trained on vast amounts of text data
+
+**Key Characteristics:**
+
+- Understand and generate human-like text
+- Can reason about complex topics
+- Trained on billions of parameters
+- General-purpose (not just one task)
+
+**Examples:** GPT-4, Claude, Google Gemini, Llama
+
+---
+
+## How Do LLMs Work?
+
+**Simplified Process:**
+
+1. **Training:** Read millions of documents (books, websites, papers)
+2. **Pattern Learning:** Identify relationships between words and concepts
+3. **Prediction:** Generate text by predicting what comes next
+4. **Fine-tuning:** Improve through feedback and instruction
+
+**Think of it as:** A very sophisticated autocomplete that understands context
+
+---
+
+## Introducing Google Gemini
+
+**Google's Advanced AI Model**
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Capabilities:**
+
+- Text generation & analysis
+- Code generation
+- Data interpretation
+- Multimodal (text, images, audio)
+- Long context understanding
+:::
+
+::: {.column width="50%"}
+**Your Workspace Benefits:**
+
+- Full Gemini access included
+- Enhanced rate limits
+- Multimodal capabilities
+- Enterprise security
+- Integrated with Google Workspace
+:::
+
+::::
+
+---
+
+## Gemini Versions
+
+**Available in Google Workspace:**
+
+1. **Gemini 1.5 Flash**
+   - Fast responses
+   - Good for most tasks
+   - Great for quick queries
+
+2. **Gemini 1.5 Pro**
+   - More capable
+   - Better reasoning
+   - Longer context (up to 1M tokens)
+   - Best for complex analysis
+
+**For this workshop:** You have access to both versions through your Workspace account!
+
+---
+
+## Introducing NotebookLM
+
+**Google's AI Research Assistant**
+
+**What is NotebookLM?**
+
+- AI-powered research and note-taking tool
+- Upload your own sources (papers, PDFs, notes)
+- Chat with your documents
+- Generate summaries and insights
+- Create study guides from your materials
+
+**Perfect for Research!**
+
+---
+
+## NotebookLM for Ecology Research
+
+**Use Cases:**
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Literature Review:**
+- Upload multiple research papers
+- Ask cross-document questions
+- Generate summaries
+- Extract key findings
+
+**Data Documentation:**
+- Upload field notes
+- Query your observations
+- Connect related findings
+:::
+
+::: {.column width="50%"}
+**Collaboration:**
+- Share notebooks with team
+- Centralized knowledge base
+- Track research progress
+
+**Writing Support:**
+- Synthesize information
+- Generate outlines
+- Cite sources automatically
+:::
+
+::::
+
+---
+
+## Gemini vs NotebookLM
+
+**When to Use Each:**
+
+| **Gemini** | **NotebookLM** |
+|------------|----------------|
+| General questions | Source-specific research |
+| Quick analysis | Deep literature review |
+| Code generation | Document analysis |
+| Brainstorming | Citation management |
+| Real-time queries | Long-term projects |
+
+**Best Practice:** Use both together for comprehensive research support!
+
+# Section 2: Getting Started {.center background-color="#2C5F77"}
+
+## Accessing Your Tools
+
+**You're already set up!**
+
+Your Google Workspace account includes:
+
+1. **Gemini** - [gemini.google.com](https://gemini.google.com)
+   - Sign in with your Workspace account
+   - Start chatting immediately
+
+2. **NotebookLM** - [notebooklm.google.com](https://notebooklm.google.com)
+   - Upload sources to get started
+   - Create project-specific notebooks
+
+**Today's Focus:** We'll primarily use Gemini, with NotebookLM tips throughout
+
+---
+
+## Understanding the Gemini Interface
+
+**Main Components:**
+
+- **Chat Input Box:** Where you type your questions/prompts
+- **Conversation History:** Previous messages
+- **New Chat Button:** Start fresh conversations
+- **Settings:** Manage preferences
+- **Activity:** View past chats
+
+**Pro Tip:** Use separate chats for different projects/topics
+
+---
+
+## Your First Prompt
+
+**What is a Prompt?**
+
+A prompt is the text you provide to the AI to get a response.
+
+**Example Prompts:**
+
+- "What is ecological succession?"
+- "Explain species-area relationships"
+- "List common bird identification features"
+
+**Key Point:** Clear questions get clear answers!
+
+---
+
+## 🎯 Hands-On Task 1: Your First Gemini Interaction
+
+**Exercise (5 minutes):**
+
+1. Open [gemini.google.com](https://gemini.google.com)
+2. **Copy and paste** these prompts one at a time:
+
+```
+What is a keystone species? Give me an example from 
+North American ecosystems.
+```
+
+```
+Explain the difference between species richness and 
+species evenness in simple terms.
+```
+
+```
+What are the main challenges in studying bird migration 
+patterns?
+```
+
+**Notice:** Response speed, detail level, accuracy
+
+**Share:** What surprised you about the responses?
+
+---
+
+## What Gemini Can Do for You
+
+**Research Support:**
+
+- Literature summaries
+- Methodology suggestions
+- Statistical guidance
+- Code writing assistance
+
+**Data Analysis:**
+
+- Data interpretation
+- Visualization suggestions
+- Statistical test recommendations
+
+**Writing Help:**
+
+- Paper drafting
+- Grant writing
+- Report generation
+
+# Section 3: Prompt Engineering {.center background-color="#2C5F77"}
+
+## What is Prompt Engineering?
+
+**Definition:** The practice of designing effective prompts to get better AI responses
+
+**Why It Matters:**
+
+- Same question, different phrasings = different results
+- Good prompts save time
+- Better prompts = more accurate answers
+- Essential skill for AI tools
+
+---
+
+## Principles of Good Prompts
+
+**1. Be Specific**
+
+❌ "Tell me about birds"
+✅ "Explain the migration patterns of Arctic Terns, including timing and routes"
+
+**2. Provide Context**
+
+❌ "Analyze this data"
+✅ "Analyze this bird census data from a temperate forest. The columns are: species, count, date, location"
+
+---
+
+## Principles of Good Prompts (cont.)
+
+**3. Set Constraints**
+
+❌ "How do I analyze diversity?"
+✅ "Explain Shannon diversity index in 3 paragraphs suitable for undergraduate ecology students"
+
+**4. Specify Format**
+
+❌ "Compare these species"
+✅ "Create a comparison table of these three warbler species, comparing habitat, diet, and migration"
+
+---
+
+## Advanced Prompt Techniques
+
+**Role Assignment:**
+
+"You are an expert ornithologist. Explain..."
+
+**Step-by-Step Requests:**
+
+"Walk me through the steps to calculate..."
+
+**Examples in Prompts:**
+
+"Like this example: [provide example], now do this with..."
+
+**Follow-up Refinement:**
+
+"That's good, but make it more concise"
+
+---
+
+## Common Prompt Mistakes
+
+❌ **Too Vague:** "Help with my research"
+✅ **Better:** "Suggest statistical methods for comparing bird abundance across 5 habitat types"
+
+❌ **Assuming Too Much:** "Use the standard method"
+✅ **Better:** "Use Principal Component Analysis (PCA) to..."
+
+❌ **No Error Checking:** Accepting first answer
+✅ **Better:** "Verify this answer: Is this the correct formula?"
+
+---
+
+## 🎯 Hands-On Task 2: Improve Your Prompts
+
+**Exercise (10 minutes):**
+
+**Part A:** First, copy this poor prompt into Gemini:
+```
+Tell me about bird diversity analysis
+```
+
+**Part B:** Now copy this improved version:
+```
+I'm an ornithologist studying songbird communities in 
+temperate forests. Explain how to compare bird diversity 
+between old-growth and secondary forests. Include which 
+diversity metrics to use and why.
+```
+
+**Part C:** Create your own improved prompt for this vague question:
+```
+How do I analyze my data?
+```
+
+Your version should specify: data type, research question, sample size, and goal.
+
+**Bonus:** Paste your improved prompts into Gemini and compare results!
+
+**Share:** What made the difference in response quality?
+
+---
+
+## Domain-Specific Prompting
+
+**For Ecology/Ornithology:**
+
+Always include:
+
+- **Study system:** "In temperate forest ecosystems..."
+- **Scale:** "At the landscape scale..." / "For individual birds..."
+- **Data type:** "Using point count data..." / "From GPS telemetry..."
+- **Goal:** "To determine habitat preference..." / "To model population trends..."
+
+**Example:**
+"I have 5 years of point count data for breeding songbirds in oak-hickory forests. Suggest appropriate methods to analyze temporal trends in species richness."
+
+# Section 4: Data Analysis with Gemini {.center background-color="#2C5F77"}
+
+## Gemini for Data Analysis
+
+**What Gemini Can Help With:**
+
+- Understanding analysis methods
+- Generating analysis code (R, Python)
+- Interpreting results
+- Creating visualizations
+- Troubleshooting errors
+
+**What It Cannot Do:**
+
+- Run code for you (free tier)*
+- Access your local files
+- Make subjective research decisions
+
+*Advanced paid features may allow code execution
+
+---
+
+## Workflow: Analysis with Gemini
+
+**Typical Process:**
+
+1. **Plan:** Ask Gemini for analysis strategy
+2. **Code:** Request code for your analysis
+3. **Interpret:** Paste results, ask for interpretation
+4. **Refine:** Iterate based on feedback
+5. **Visualize:** Get code for figures
+6. **Document:** Generate result descriptions
+
+**Key:** You're still in control! Gemini is your assistant.
+
+---
+
+## Example: Bird Diversity Analysis
+
+**Your Question:**
+
+"I have bird survey data with columns: site_id, species, count, habitat_type. I want to compare species diversity between forest and grassland habitats. Suggest an analysis approach."
+
+**Gemini Might Suggest:**
+
+1. Calculate diversity indices (Shannon, Simpson)
+2. Test for differences (t-test or Mann-Whitney)
+3. Visualize with boxplots
+4. Consider sample size and rarefaction
+
+---
+
+## Generating R Code
+
+**Your Prompt:**
+
+"Write R code to calculate Shannon diversity index for each site from a dataframe called 'bird_data' with columns: site_id, species, count. Then compare diversity between habitats using a t-test."
+
+**Gemini Will Generate:**
+
+```r
+library(vegan)
+library(dplyr)
+
+# Calculate Shannon diversity by site
+diversity_by_site <- bird_data %>%
+  group_by(site_id) %>%
+  summarize(shannon = diversity(count, index = "shannon"))
+
+# Merge with habitat data...
+# Perform t-test...
+```
+
+---
+
+## Generating Python Code
+
+**Your Prompt:**
+
+"Write Python code using pandas and scikit-bio to calculate Shannon diversity and create a boxplot comparing forest vs grassland sites."
+
+**Gemini Will Generate:**
+
+```python
+import pandas as pd
+import numpy as np
+from skbio.diversity import alpha_diversity
+import matplotlib.pyplot as plt
+
+# Calculate diversity
+# Create visualization
+# etc.
+```
+
+**Pro Tip:** Always specify libraries you prefer!
+
+---
+
+## Interpreting Results
+
+**You Can Ask:**
+
+- "What does a Shannon index of 2.3 mean?"
+- "Is this p-value significant?"
+- "Why might I see this pattern?"
+- "What are alternative explanations?"
+
+**Example Exchange:**
+
+**You:** "I got a p-value of 0.23 comparing diversity between habitats. What does this mean?"
+
+**Gemini:** "A p-value of 0.23 means there's no statistically significant difference (typically we use α=0.05). This suggests..."
+
+---
+
+## Working with Actual Data
+
+**Best Practices:**
+
+1. **Don't share sensitive data:** Use fake/anonymized examples
+2. **Describe structure:** Column names, data types
+3. **Show small samples:** First few rows as example
+4. **Specify format:** CSV, Excel, database, etc.
+
+**Example:**
+
+"I have a CSV with these columns and first 3 rows:
+```
+species,count,site
+RWBL,5,A1
+AMRO,3,A1
+NOCA,2,A2
+```
+..."
+
+---
+
+## 🎯 Hands-On Task 3: Analyze Sample Data
+
+**Exercise (15 minutes):**
+
+**Copy this complete scenario into Gemini:**
+
+```
+I have bird survey data from 10 sites. Here are the results:
+
+Forest sites:
+- Site F1: 12 species, 45 total birds, Shannon diversity = 2.21
+- Site F2: 15 species, 52 total birds, Shannon diversity = 2.48
+- Site F3: 14 species, 48 total birds, Shannon diversity = 2.35
+- Site F4: 13 species, 50 total birds, Shannon diversity = 2.28
+- Site F5: 16 species, 55 total birds, Shannon diversity = 2.52
+
+Grassland sites:
+- Site G1: 8 species, 38 total birds, Shannon diversity = 1.85
+- Site G2: 10 species, 41 total birds, Shannon diversity = 1.98
+- Site G3: 9 species, 39 total birds, Shannon diversity = 1.91
+- Site G4: 11 species, 43 total birds, Shannon diversity = 2.05
+- Site G5: 7 species, 35 total birds, Shannon diversity = 1.76
+
+Questions:
+1. Calculate the mean Shannon diversity for each habitat type
+2. Does there appear to be a difference between habitats?
+3. Would a t-test be appropriate here? Why or why not?
+4. What would be the null and alternative hypotheses?
+5. What biological factors might explain any differences?
+```
+
+**Then try follow-up questions:**
+- "Write R code to perform this analysis"
+- "How would I visualize these results?"
+- "What if the data isn't normally distributed?"
+
+---
+
+## Common Data Analysis Requests
+
+**Statistical Tests:**
+
+- "Which test should I use for..."
+- "Explain assumptions of ANOVA"
+- "Write code for a mixed effects model"
+
+**Visualization:**
+
+- "Create a ggplot for..."
+- "Make a matplotlib figure showing..."
+- "Suggest effective visualizations for..."
+
+**Interpretation:**
+
+- "What does this coefficient mean?"
+- "Explain this interaction effect"
+- "Is this effect size meaningful?"
+
+# Section 5: Domain-Specific Applications {.center background-color="#2C5F77"}
+
+## Species Identification Assistance
+
+**How Gemini Can Help:**
+
+**Field Guides:**
+"What are the key features to distinguish Hermit Thrush from Swainson's Thrush?"
+
+**Diagnostic Keys:**
+"Create a dichotomous key for identifying local warblers"
+
+**Behavior Patterns:**
+"Describe typical foraging behavior of Downy vs Hairy Woodpeckers"
+
+**Note:** Always verify with field guides and experts!
+
+---
+
+## Literature Review Support
+
+**Effective Uses:**
+
+**Summarizing Concepts:**
+"Summarize the current understanding of island biogeography theory"
+
+**Finding Research Gaps:**
+"What are understudied aspects of warbler migration?"
+
+**Explaining Methods:**
+"Explain how capture-recapture methods work for population estimation"
+
+**Comparing Approaches:**
+"Compare radio telemetry vs GPS tracking for bird movement studies"
+
+---
+
+## Research Hypothesis Generation
+
+**Brainstorming with Gemini:**
+
+**Your Prompt:**
+"I study forest songbirds in fragmented habitats. Suggest 5 testable hypotheses about how fragment size affects species diversity."
+
+**Gemini Might Suggest:**
+
+1. Larger fragments support higher species richness
+2. Edge specialists dominate in smaller fragments
+3. Migratory species show stronger area sensitivity than residents
+4. Nesting success decreases with decreasing fragment size
+5. Functional diversity declines faster than species richness
+
+**Your Role:** Evaluate, refine, and test!
+
+---
+
+## Experimental Design Help
+
+**What to Ask:**
+
+- "Suggest sampling design for..."
+- "How many replicates do I need for..."
+- "What are potential confounding variables?"
+- "Critique this experimental design: ..."
+
+**Example:**
+
+"I want to test if bird feeders affect local bird diversity. Suggest an experimental design with proper controls."
+
+---
+
+## Writing Assistance
+
+**Paper Sections:**
+
+**Methods:**
+"Write a methods paragraph describing point count surveys conducted at 30 sites, 3 times each, during breeding season"
+
+**Results:**
+"Describe these statistical results in clear prose: [paste results]"
+
+**Discussion:**
+"Suggest possible explanations for why species richness decreased with urbanization intensity"
+
+**Important:** Always personalize and verify! Don't copy-paste directly.
+
+---
+
+## Grant Writing Support
+
+**Useful Prompts:**
+
+- "Outline a research proposal for..."
+- "Write a broader impacts statement about..."
+- "Suggest project timeline for a 3-year study on..."
+- "List potential challenges and solutions for..."
+
+**Remember:** 
+
+- Grant reviewers may use AI too
+- Your voice and expertise must shine through
+- Verify all factual claims
+
+---
+
+## Teaching and Outreach
+
+**Create Materials:**
+
+- "Design a lesson plan about migration for middle schoolers"
+- "Create an analogy to explain ecological succession"
+- "Draft text for an interpretive sign about local birds"
+
+**Citizen Science:**
+
+- "Write instructions for volunteers collecting bird data"
+- "Create a FAQ about our bird monitoring project"
+
+---
+
+## 🎯 Hands-On Task 4: Domain-Specific Challenge
+
+**Choose ONE scenario (10 minutes) and copy it into Gemini:**
+
+**Option A - Species Identification:**
+```
+I observed a small songbird in a temperate forest with these 
+characteristics:
+- Size: smaller than a robin
+- Upperparts: olive-brown
+- Underparts: white with brown streaking
+- Behavior: foraging on the ground, scratching in leaf litter
+- Song: loud, clear "tea-CHER, tea-CHER, tea-CHER"
+
+What species might this be? Provide a shortlist of possibilities 
+and key distinguishing features. I'm in the northeastern US.
+```
+
+**Option B - Research Design:**
+```
+I want to study the effect of forest fragmentation on songbird 
+nesting success. I have access to 20 forest fragments ranging 
+from 5 to 100 hectares and one breeding season to collect data.
+
+Help me design this study:
+1. How should I allocate my effort?
+2. What variables should I measure?
+3. What are potential confounding factors?
+4. What statistical approach would I use?
+5. What are the main limitations?
+```
+
+**Option C - Writing Help:**
+```
+Help me write a methods paragraph. I conducted point count 
+surveys at 30 sites (15 forest, 15 grassland). Each site was 
+surveyed 3 times between May 15 and June 30, 2024. Each survey 
+lasted 10 minutes. I recorded all birds seen or heard within 
+50m radius between 6am-10am on days with no rain and wind <15 km/h.
+
+Write this as a clear methods paragraph for a scientific paper.
+```
+
+**Share:** What was helpful? What would you need to verify or change?
+
+# Section 6: Best Practices & Limitations {.center background-color="#2C5F77"}
+
+## Fact-Checking is Essential
+
+**Gemini Can Make Mistakes:**
+
+- **Hallucinations:** Making up plausible-sounding but false information
+- **Outdated Information:** Training data has a cutoff date
+- **Misunderstanding:** Interpreting your prompt differently than intended
+
+**Always Verify:**
+
+- Scientific facts against literature
+- Statistical methods with textbooks
+- Species information with field guides
+- Code by testing it!
+
+---
+
+## Verification Strategies
+
+**Cross-Reference:**
+
+- Check multiple sources
+- Consult peer-reviewed literature
+- Ask colleagues/experts
+
+**Critical Questions:**
+
+- "Is this consistent with what I know?"
+- "Can I find a citation for this?"
+- "Does this code actually run?"
+
+**Use Gemini Itself:**
+
+"Is this statement accurate: [paste claim]? Provide sources."
+
+---
+
+## Privacy and Data Security
+
+**DO NOT Share:**
+
+- Unpublished data (especially if not yours)
+- Sensitive location data (endangered species)
+- Proprietary information
+- Personal information
+- Data with legal restrictions
+
+**Safe to Share:**
+
+- Published data
+- Anonymized examples
+- Publicly available datasets
+- Generic/hypothetical scenarios
+
+---
+
+## Ethical Considerations
+
+**Research Ethics:**
+
+- Don't let AI make scientific decisions for you
+- Maintain intellectual honesty
+- Acknowledge AI use when appropriate
+- Follow journal policies on AI
+
+**Data Interpretation:**
+
+- You understand your system, AI doesn't
+- Biology is complex; simple AI answers may be wrong
+- Statistical significance ≠ biological significance
+
+---
+
+## Limitations of Free Tier
+
+**Rate Limits:**
+
+- Limited requests per minute/day
+- May slow down with heavy use
+- Resets after waiting period
+
+**Features:**
+
+- No code execution in chat
+- Limited multimodal capabilities
+- Shorter maximum context
+
+**Workarounds:**
+
+- Plan your questions
+- Use multiple sessions
+- Break complex tasks into steps
+
+---
+
+## When NOT to Use Gemini
+
+**Don't Use For:**
+
+- Final decision-making without verification
+- Identifying endangered species locations
+- Analyzing sensitive/confidential data
+- Critical/time-sensitive clinical decisions
+- Replacing domain expertise
+
+**It's a Tool, Not a Replacement:**
+
+- Your expertise is irreplaceable
+- AI assists, you decide
+- Critical thinking still essential
+
+---
+
+## Academic Integrity
+
+**Guidelines:**
+
+**Acceptable:**
+- Brainstorming ideas
+- Learning concepts
+- Debugging code
+- Improving writing clarity
+
+**Requires Disclosure:**
+- Substantial text generation
+- Code generation (check journal policies)
+- Analysis suggestions used directly
+
+**Not Acceptable:**
+- Fabricating data or results
+- Plagiarizing AI output as original
+- Bypassing learning in courses
+
+**Check your institution's policies!**
+
+# Section 7: Advanced Tips & Resources {.center background-color="#2C5F77"}
+
+## Multimodal Capabilities
+
+**Gemini Can Process:**
+
+**Images:**
+- "What species is in this photo?"
+- "Describe the habitat in this image"
+- "Read this field data sheet"
+
+**Combinations:**
+- Upload image + ask questions
+- Combine data tables with text
+- Analyze charts/graphs
+
+**Try it:** Upload a bird photo and ask for ID help!
+
+---
+
+## Using NotebookLM for Research
+
+**Practical Workflow Example:**
+
+**Step 1: Create a Notebook for Your Project**
+- Go to [notebooklm.google.com](https://notebooklm.google.com)
+- Create "Songbird Diversity Project"
+
+**Step 2: Upload Your Sources**
+- Research papers on bird diversity
+- Your field notes (Google Docs)
+- Previous study results (PDFs)
+- Methodology references
+
+**Step 3: Ask Cross-Document Questions**
+
+---
+
+## NotebookLM Example Queries
+
+**Copy these into NotebookLM (after uploading sources):**
+
+```
+Summarize the main findings about forest bird diversity 
+across all uploaded papers. What are the common themes?
+```
+
+```
+Based on my field notes and the literature, what factors 
+might explain the patterns I'm seeing in my data?
+```
+
+```
+Create a comparison table of the statistical methods used 
+in these studies for analyzing bird diversity.
+```
+
+```
+Generate a study guide covering the key concepts I need 
+to understand for my analysis.
+```
+
+---
+
+## Combining Gemini and NotebookLM
+
+**Powerful Workflow:**
+
+1. **NotebookLM:** Deep dive into your literature
+   - Upload 10-20 papers on your topic
+   - Get comprehensive summaries
+   - Identify knowledge gaps
+
+2. **Gemini:** Apply insights to your work
+   - "Based on X theory, how should I analyze..."
+   - Generate code for methods
+   - Get real-time analysis help
+
+3. **NotebookLM:** Document your findings
+   - Add your results as new sources
+   - Generate discussion points
+   - Create draft sections
+
+---
+
+## NotebookLM Features for Researchers
+
+**Key Capabilities:**
+
+- **Source Grounding:** All answers cite specific sources
+- **Audio Overviews:** Generate podcast-style summaries
+- **Note-Taking:** Organize thoughts alongside sources
+- **Timeline View:** Track research progress
+- **Shared Notebooks:** Collaborate with team
+
+**Pro Tip:** Create separate notebooks for different projects or research phases
+
+---
+
+## Iterative Conversations
+
+**Build on Previous Responses:**
+
+1. Start broad: "Explain community assembly theory"
+2. Get specific: "Now relate that to bird communities"
+3. Apply it: "How would I test this in my forest?"
+4. Get technical: "Show me the R code for that analysis"
+
+**Advantage:** Gemini remembers conversation context!
+
+---
+
+## Creating Templates
+
+**Reusable Prompts:**
+
+Save effective prompts for common tasks:
+
+**Statistical Analysis Template:**
+"I have data on [VARIABLE] from [STUDY_SYSTEM] with [SAMPLE_SIZE] samples. I want to test [HYPOTHESIS]. Suggest appropriate statistical approach and R code."
+
+**Literature Summary Template:**
+"Summarize current understanding of [TOPIC] in [FIELD], focusing on [ASPECT]. Include key studies and knowledge gaps."
+
+---
+
+## Integrating into Your Workflow
+
+**Daily Research Tasks:**
+
+- Morning: Check Gemini for concept clarification
+- During analysis: Get code suggestions
+- Writing time: Draft/refine text
+- End of day: Plan tomorrow's analyses
+
+**Project Phases:**
+
+- Planning: Hypothesis generation, design advice
+- Data collection: Protocol refinement
+- Analysis: Statistical guidance, coding help
+- Writing: Drafting, editing assistance
+
+---
+
+## Combining with Other Tools
+
+**Workflow Integration:**
+
+**NotebookLM + Gemini:**
+- Upload papers to NotebookLM → Get summaries → Use insights in Gemini for analysis
+
+**Gemini + R/Python:**
+- Generate code → Test in IDE → Refine with Gemini
+
+**NotebookLM + Literature:**
+- Upload papers to NotebookLM → Ask cross-paper questions → Generate literature review
+
+**Gemini + Collaboration:**
+- Draft text → Team review → Refine with Gemini
+
+**NotebookLM + Field Work:**
+- Upload field notes → Query observations → Track patterns over time
+
+**All Together:**
+- Best when combined with textbooks, courses, experts, and traditional methods
+
+---
+
+## Staying Updated
+
+**Google AI Tools Evolve:**
+
+- New features regularly added
+- Improved capabilities
+- Changed limitations
+- Updated policies
+
+**Follow:**
+
+- Google AI blog (blog.google/technology/ai/)
+- NotebookLM updates
+- Google Workspace release notes
+- Academic AI communities
+- Your field's AI adoption
+
+---
+
+## Resources for Continued Learning
+
+**Google AI Tools:**
+
+- Gemini: [gemini.google.com](https://gemini.google.com)
+- NotebookLM: [notebooklm.google.com](https://notebooklm.google.com)
+- Google AI Studio: [aistudio.google.com](https://aistudio.google.com)
+- Documentation: [ai.google.dev](https://ai.google.dev)
+
+**Prompt Engineering:**
+
+- Learn Prompting (learnprompting.org)
+- OpenAI Prompt Engineering Guide
+- Practice, practice, practice!
+
+**AI in Science:**
+
+- Papers on AI in ecology/ornithology
+- Your field's methodology journals
+- Online courses (Coursera, etc.)
+
+**Communities:**
+
+- #AcademicTwitter discussions
+- Ecology/ornithology society forums
+- Local R/Python user groups
+
+---
+
+## Advanced Topics (Self-Study)
+
+**Explore on Your Own:**
+
+- **API Access:** Programmatic use of Gemini
+- **Batch Processing:** Analyzing multiple datasets
+- **Custom Instructions:** Tuning behavior
+- **Chain-of-Thought:** Better reasoning
+- **Few-Shot Learning:** Examples-based prompting
+
+**Documentation:** [ai.google.dev](https://ai.google.dev)
+
+---
+
+## 🎯 Final Exercise: Plan Your Use Case
+
+**Individual Activity (5 minutes):**
+
+Think about your current research/work and write a detailed prompt in your notes or directly in Gemini:
+
+**Template to use:**
+```
+[Describe your research context]
+
+I want to [specific goal]
+
+I have [data/resources available]
+
+Help me:
+1. [Question 1]
+2. [Question 2]
+3. [Question 3]
+```
+
+**Example:**
+```
+I study warbler populations in mixed hardwood forests. I want to 
+determine if habitat quality (measured by tree species diversity) 
+affects warbler species richness. I have 25 sites surveyed over 
+2 years with bird counts and vegetation data.
+
+Help me:
+1. Design the statistical analysis
+2. Identify potential confounding variables
+3. Suggest appropriate visualizations
+```
+
+**Optional:** Test your prompt in Gemini and share results with the group!
+
+# Wrap-Up {.center background-color="#2C5F77"}
+
+## Key Takeaways
+
+✅ **AI is a powerful assistant**, not a replacement for expertise
+
+✅ **Good prompts** = Better results (be specific, provide context)
+
+✅ **Always verify** AI outputs against trusted sources
+
+✅ **Free tier is capable** for most learning and research tasks
+
+✅ **Ethical use matters** - maintain integrity and privacy
+
+✅ **Start small** - Integrate gradually into workflow
+
+---
+
+## Your Next Steps
+
+**This Week:**
+
+1. Set up Gemini account if you haven't
+2. Try prompts for one current task
+3. Practice improving your prompts
+
+**This Month:**
+
+1. Integrate into one workflow aspect
+2. Share tips with colleagues
+3. Track what works/doesn't
+
+**Ongoing:**
+
+1. Stay updated on AI developments
+2. Contribute to responsible AI use in your field
+3. Keep learning and experimenting!
+
+---
+
+## Questions & Discussion
+
+**Open Q&A Time**
+
+- Questions about concepts covered?
+- Specific use cases to discuss?
+- Challenges you anticipate?
+- Success stories to share?
+
+**Stay Connected:**
+
+- [Your contact information]
+- [Workshop materials repository]
+- [Follow-up resources]
+
+---
+
+## Additional Resources
+
+**Websites:**
+
+- Google AI Studio: [aistudio.google.com](https://aistudio.google.com)
+- Gemini API Docs: [ai.google.dev](https://ai.google.dev)
+
+**Example Use Cases:**
+
+- Sample datasets from today
+- Prompt templates
+- Analysis workflows
+
+**Further Learning:**
+
+- Online courses on AI for scientists
+- Community forums
+- Practice datasets
+
+---
+
+## Thank You! {.center}
+
+### Happy AI-Assisted Research!
+
+**Remember:**
+
+- You're the expert in your field
+- AI is your tool, not your replacement
+- Ethical use makes better science
+- Keep learning and sharing
+
+**Questions?** Contact [your email]
+
+**Materials:** [Repository link]
+
+---
+
+## Bonus: Quick Reference {.smaller}
+
+**Quick Prompts for Common Tasks:**
+
+| Task | Prompt Template |
+|------|----------------|
+| Statistical Test | "I have [DATA TYPE] measuring [VARIABLES] with [N] samples. Suggest appropriate statistical test." |
+| R Code | "Write R code using [PACKAGES] to [TASK] with data structure: [DESCRIPTION]" |
+| Interpret Result | "I got [RESULT] from [TEST]. Explain what this means for [HYPOTHESIS]." |
+| Literature Help | "Summarize current understanding of [TOPIC] in [FIELD], focusing on [ASPECT]." |
+| Species ID | "What distinguishes [SPECIES A] from [SPECIES B]? Focus on [FIELD MARKS/BEHAVIOR]." |
+| Visualization | "Create [PLOT TYPE] in [R/Python] showing [RELATIONSHIP] with [AESTHETICS]." |
+
+**Save these for quick reference!**

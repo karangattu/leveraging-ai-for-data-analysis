@@ -1,0 +1,59 @@
+# Quarto build files
+*_files/
+.quarto/
+/.quarto/
+
+# Keep the rendered HTML files for GitHub Pages
+# *.html - commented out to allow HTML files
+
+# R files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Python files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Plots and output files (generated during analysis)
+# Keep sample images if any
+*.png
+*.pdf
+*.jpg
+*.jpeg
+*.svg
+
+# Data files (keep example data, ignore large datasets)
+# data/*.csv  # Uncomment if you want to ignore all CSV files
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Analysis output
+*.RData
+*.rds

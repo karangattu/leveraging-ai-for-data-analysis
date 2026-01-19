@@ -1,0 +1,16 @@
+site,habitat,species_richness,total_birds,elevation_m,canopy_cover_percent
+S1,Forest,12,45,320,85
+S2,Forest,15,52,285,90
+S3,Grassland,8,38,210,10
+S4,Grassland,10,41,195,5
+S5,Forest,14,48,310,88
+S6,Grassland,9,39,205,8
+S7,Forest,13,50,330,82
+S8,Grassland,11,43,220,12
+S9,Forest,16,55,295,92
+S10,Grassland,7,35,200,6
+S11,Forest,14,49,315,87
+S12,Grassland,9,40,215,9
+S13,Forest,11,44,305,80
+S14,Grassland,10,42,210,11
+S15,Forest,17,58,300,95

@@ -1,0 +1,51 @@
+site_id,species,count,habitat_type
+S1,American Robin,5,Forest
+S1,Blue Jay,3,Forest
+S1,Northern Cardinal,4,Forest
+S1,Black-capped Chickadee,8,Forest
+S1,Downy Woodpecker,2,Forest
+S2,American Robin,4,Forest
+S2,Blue Jay,2,Forest
+S2,Northern Cardinal,6,Forest
+S2,Tufted Titmouse,5,Forest
+S2,Red-bellied Woodpecker,1,Forest
+S3,Song Sparrow,12,Grassland
+S3,Eastern Meadowlark,4,Grassland
+S3,Grasshopper Sparrow,6,Grassland
+S3,Red-winged Blackbird,15,Grassland
+S4,Song Sparrow,10,Grassland
+S4,Eastern Meadowlark,3,Grassland
+S4,Grasshopper Sparrow,5,Grassland
+S4,Red-winged Blackbird,18,Grassland
+S4,Bobolink,3,Grassland
+S5,American Robin,6,Forest
+S5,Blue Jay,4,Forest
+S5,Northern Cardinal,5,Forest
+S5,Black-capped Chickadee,7,Forest
+S5,White-breasted Nuthatch,3,Forest
+S6,Song Sparrow,15,Grassland
+S6,Eastern Meadowlark,5,Grassland
+S6,Grasshopper Sparrow,7,Grassland
+S6,Red-winged Blackbird,20,Grassland
+S6,Bobolink,4,Grassland
+S7,American Robin,7,Forest
+S7,Blue Jay,3,Forest
+S7,Northern Cardinal,3,Forest
+S7,Black-capped Chickadee,9,Forest
+S7,Downy Woodpecker,2,Forest
+S7,Tufted Titmouse,4,Forest
+S8,Song Sparrow,11,Grassland
+S8,Eastern Meadowlark,6,Grassland
+S8,Grasshopper Sparrow,4,Grassland
+S8,Red-winged Blackbird,16,Grassland
+S9,American Robin,5,Forest
+S9,Blue Jay,5,Forest
+S9,Northern Cardinal,4,Forest
+S9,Black-capped Chickadee,6,Forest
+S9,White-breasted Nuthatch,2,Forest
+S9,Red-bellied Woodpecker,1,Forest
+S10,Song Sparrow,13,Grassland
+S10,Eastern Meadowlark,4,Grassland
+S10,Grasshopper Sparrow,8,Grassland
+S10,Red-winged Blackbird,19,Grassland
+S10,Bobolink,2,Grassland
