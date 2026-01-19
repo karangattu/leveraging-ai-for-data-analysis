@@ -60,7 +60,7 @@ format:
 - Practical data analysis techniques
 - Domain-specific applications for your research
 
-**Materials:** All exercises are copy-paste ready for [gemini.google.com](https://gemini.google.com) - no coding required!
+**Materials:** [gemini.google.com](https://gemini.google.com) - no local software (like R or Python) required!
 
 ---
 
@@ -511,11 +511,11 @@ Always include:
 **Typical Process:**
 
 1. **Plan:** Ask Gemini for analysis strategy
-2. **Code:** Request code for your analysis
-3. **Interpret:** Paste results, ask for interpretation
-4. **Refine:** Iterate based on feedback
-5. **Visualize:** Get code for figures
-6. **Document:** Generate result descriptions
+2. **Explore:** Provide a data sample, ask Gemini for patterns
+3. **Logic Check:** Ask Gemini to explain the math/statistics
+4. **Iterate:** Refine your questions based on AI feedback
+5. **Visualize:** Ask Gemini to describe or create a chart (SVG/Python)
+6. **Interpret:** Paste results, ask for biological significance
 
 **Key:** You're still in control! Gemini is your assistant.
 
@@ -844,7 +844,88 @@ Write this as a clear methods paragraph for a scientific paper.
 
 **Share:** What was helpful? What would you need to verify or change?
 
-# Section 6: Best Practices & Limitations {.center background-color="#2C5F77"}
+# Section 6: Motus Tracking Data Analysis {.center background-color="#2C5F77"}
+
+## What is Motus?
+
+**Motus Wildlife Tracking System:** A collaborative network of automated radio telemetry stations.
+
+**Relevance to SFBBO:**
+- **Pacific Coast Motus Network:** Tracking shorebirds and landbirds through the Bay.
+- **Stations:** CCFS (Coyote Creek), Palo Alto Baylands, Ravenswood, and more.
+- **Data Challenge:** Large SQLite files with complex relationships and potential false positives.
+
+---
+
+## Task 1: Understanding Motus Data
+
+**Scenario:** You've downloaded your Motus project data. It's a `.motus` SQLite file.
+
+**Prompt to Gemini:**
+```
+"I have a Motus tracking dataset in SQLite format. Explain the relationship between the 'hits', 'runs', and 'tagdeps' tables. What columns should I look for to identify unique tags and their detection times?"
+```
+
+**Why this helps:** Gemini explains the complex relational structure without you needing to be a database expert!
+
+---
+
+## Task 2: Cleaning & Filtering Data
+
+**Scenario:** You have a small sample of your Motus data. You want Gemini to find the "bad" detections for you.
+
+**Copy into Gemini:**
+```
+"Here is a sample of my Motus detections (StationID, TagID, Hits, SNR):
+1. CCFS, 5678, 2, 1.5
+2. CCFS, 5678, 15, 8.2
+3. PABAY, 5678, 1, 0.5
+4. PABAY, 5678, 12, 7.5
+
+Which of these detections are likely 'false positives' based on low hit counts 
+or low signal-to-noise (SNR)? Explain your reasoning."
+```
+
+**Why this helps:** You learn to use Gemini as a filter *before* you even touch R!
+
+---
+
+## Task 3: Visualizing Bird Movements
+
+**Scenario:** You want to understand the migration path without writing code.
+
+**Prompt to Gemini:**
+```
+"I have three Motus detections for Tag 101: 
+- 08:00: CCFS (South Bay)
+- 10:30: Hayward Shoreline (East Bay)
+- 13:00: San Pablo Bay (North Bay)
+
+Describe the likely movement path of this bird through the SF Bay. 
+What direction is it traveling? What is the approximate distance covered?"
+```
+
+**Output:** Gemini interprets the geography and timing for you!
+
+---
+
+## 🎯 Hands-On Task 5: Motus Challenge
+
+**Copy into Gemini:**
+```
+"You are a data analyst helping SFBBO biologists. We have a tagged 
+Salt Marsh Common Yellowthroat detected at CCFS (Lat 37.4, Lon -121.9) 
+and then 2 hours later at Palo Alto Baylands (Lat 37.45, Lon -122.1).
+
+1. Calculate the minimum distance traveled in km.
+2. What was the minimum flight speed in km/h?
+3. Write an R code snippet to calculate 'time since deployment' 
+   for this tag given a deployment date of 2024-05-01."
+```
+
+---
+
+# Section 7: Best Practices & Limitations {.center background-color="#2C5F77"}
 
 ## Fact-Checking is Essential
 
@@ -981,7 +1062,7 @@ Write this as a clear methods paragraph for a scientific paper.
 
 **Check your institution's policies!**
 
-# Section 7: Advanced Tips & Resources {.center background-color="#2C5F77"}
+# Section 8: Advanced Tips & Resources {.center background-color="#2C5F77"}
 
 ## Multimodal Capabilities
 
