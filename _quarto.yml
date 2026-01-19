@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: .
+
+website:
+  title: "Leveraging Google Gemini for Data Analysis"
+  navbar:
+    background: primary
+    left:
+      - text: "Workshop"
+        href: workshop.html
+      - text: "Exercises"
+        href: EXERCISES.md
+      - text: "Supplementary"
+        href: SUPPLEMENTARY.md
+      - text: "GitHub"
+        icon: github
+        href: https://github.com/karangattu/leveraging-ai-for-data-analysis
+  page-footer:
+    center: "Workshop Materials for Ornithologists and Ecologists"
+
+format:
+  html:
+    theme: cosmo
+    css: custom.css
+    toc: true
+    toc-depth: 3
