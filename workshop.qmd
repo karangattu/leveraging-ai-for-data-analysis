@@ -4,7 +4,7 @@ subtitle: "A Workshop for Ornithologists and Ecologists"
 author: "Workshop Facilitator"
 format:
   revealjs:
-    theme: [moon, custom.css]
+    theme: [simple, custom.css]
     slide-number: c/t
     show-slide-number: all
     chalkboard: 
@@ -12,9 +12,8 @@ format:
     preview-links: auto
     logo: ""
     css: custom.css
-    footer: "🤖 Gemini for Data Analysis Workshop | 🐦 Ornithology & Ecology"
-    transition: slide
-    background-transition: zoom
+    transition: none
+    background-transition: none
     transition-speed: default
     controls: true
     controls-layout: bottom-right
@@ -76,7 +75,7 @@ format:
 | 3:15-4:00 | Advanced Applications & Wrap-up |
 : Workshop Schedule {.smaller}
 
-# Section 1: Introduction to AI {.center background-color="#2C5F77"}
+# Section 1: Introduction to AI {.center}
 
 ## What is Artificial Intelligence?
 
@@ -264,7 +263,7 @@ These all use different types of machine learning!
 
 **Best Practice:** Use both together for comprehensive research support!
 
-# Section 2: Getting Started {.center background-color="#2C5F77"}
+# Section 2: Getting Started {.center}
 
 ## Accessing Your Tools
 
@@ -364,7 +363,7 @@ patterns?
 - Report generation
 - Outreach material drafting (e.g., for SFBBO blog)
 
-# Section 3: Prompt Engineering {.center background-color="#2C5F77"}
+# Section 3: Prompt Engineering {.center}
 
 ## What is Prompt Engineering?
 
@@ -484,7 +483,7 @@ Always include:
 **Example:**
 "I have 10 years of banding data for Common Yellowthroats at CCFS. Suggest appropriate methods to analyze temporal trends in body condition."
 
-# Section 4: Data Analysis with Gemini {.center background-color="#2C5F77"}
+# Section 4: Data Analysis with Gemini {.center}
 
 ## Gemini for Data Analysis
 
@@ -679,7 +678,7 @@ Questions:
 - "Explain this interaction effect"
 - "Is this effect size meaningful?"
 
-# Section 5: Domain-Specific Applications {.center background-color="#2C5F77"}
+# Section 5: Domain-Specific Applications {.center}
 
 ## Species Identification Assistance
 
@@ -844,7 +843,7 @@ Write this as a clear methods paragraph for a scientific paper.
 
 **Share:** What was helpful? What would you need to verify or change?
 
-# Section 6: Motus Tracking Data Analysis {.center background-color="#2C5F77"}
+# Section 6: Motus Tracking Data Analysis {.center}
 
 ## What is Motus?
 
@@ -925,7 +924,7 @@ and then 2 hours later at Palo Alto Baylands (Lat 37.45, Lon -122.1).
 
 ---
 
-# Section 7: Best Practices & Limitations {.center background-color="#2C5F77"}
+# Section 7: Best Practices & Limitations {.center}
 
 ## Fact-Checking is Essential
 
@@ -1062,7 +1061,7 @@ and then 2 hours later at Palo Alto Baylands (Lat 37.45, Lon -122.1).
 
 **Check your institution's policies!**
 
-# Section 8: Advanced Tips & Resources {.center background-color="#2C5F77"}
+# Section 8: Advanced Tips & Resources {.center}
 
 ## Multimodal Capabilities
 
@@ -1327,7 +1326,7 @@ Help me:
 
 **Optional:** Test your prompt in Gemini and share results with the group!
 
-# Wrap-Up {.center background-color="#2C5F77"}
+# Wrap-Up {.center}
 
 ## Key Takeaways
 
